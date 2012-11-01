@@ -6,7 +6,7 @@ version = '2.0b6'
 setup(name='raptus.article.reference',
       version=version,
       description="Provides support for internal or external references on nested articles.",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "MANUAL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
@@ -17,7 +17,7 @@ setup(name='raptus.article.reference',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.article/raptus.article.reference',
+      url='https://github.com/Raptus/raptus.article.reference',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus', 'raptus.article'],
